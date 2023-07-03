@@ -5,7 +5,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const NewEducationSection = () => {
     return (
-      <section className="education2" id="education2">
+      <section className="education" id="education">
+        <br />
         <br />
         <div className="education2-header">
           <h1>
