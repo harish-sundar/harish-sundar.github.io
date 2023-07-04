@@ -24,6 +24,7 @@ const ProjectsSection = () => {
             <h1>
               <strong>{project.name}</strong>
             </h1>
+            <br />
             <p>
               <strong>Technologies Used: </strong>
               {project.skills}
