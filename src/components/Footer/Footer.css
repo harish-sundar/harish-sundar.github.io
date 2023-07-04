@@ -66,6 +66,12 @@
   @media (max-width: 768px) {
     .footer-icon{
       transform: scale(0.75);
+      align-items: center;
+      justify-content: center;
+      display: inline-flex;
+    }
+    .footer-text p{
+      font-size: 0.6rem;
     }
   }
 
