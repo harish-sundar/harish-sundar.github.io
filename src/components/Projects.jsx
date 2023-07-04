@@ -5,8 +5,12 @@ import data from '../projects_data.js';
 const ProjectsSection = () => {
   return (
     <section className="projects" id="projects">
-      <br />
-      <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       <div className="projects-header">
         <h1>
           <span className="projects-title">Projects:</span> My Portfolio

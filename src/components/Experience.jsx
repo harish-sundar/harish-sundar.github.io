@@ -18,8 +18,12 @@ const ExperienceSection = () => {
 
     return (
         <section className = "experience" id = "experience">
-            <br />
-            <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="experience-header">
         <h1>
           <span className="experience-title">Experience:</span> Slide Through

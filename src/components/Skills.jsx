@@ -38,8 +38,11 @@ const SkillsSection = () => {
   return (
     <section className="skills" id="skills">
       <br />
-      <br />
-      <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       <div className="skills-header">
         <h1>
           <span className="skills-title">Skills:</span> My Expertise

@@ -5,10 +5,7 @@ import mcstLogo from '../images/mcst_logo.jpeg';
 
 const EducationSection = () => {
   return (
-    <section className="education2" id="education2">
-      <br />
-      <br />
-      <br />
+    <section className="education2" id="education2">      
       <div className="education-header">
         <h1>
           <span className="education-title">Education:</span> A Quick Timeline

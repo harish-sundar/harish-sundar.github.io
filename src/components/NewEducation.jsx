@@ -8,6 +8,10 @@ const NewEducationSection = () => {
       <section className="education" id="education">
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="education2-header">
           <h1>
             <span className="education2-title">Education:</span> A Timeline
