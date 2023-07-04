@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLink, FaNewspaper } from 'react-icons/fa';
+import { FaGithub, FaLink, FaNewspaper } from 'react-icons/fa';
 import data from '../projects_data.js';
 
 const ProjectsSection = () => {
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
                     rel="noopener noreferrer"
                     className="link-button"
                   >
-                    <FaLink className="github-icon" />
+                    <FaGithub className="github-icon" />
                   </a>
                 )}
               </div>
