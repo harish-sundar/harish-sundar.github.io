@@ -37,7 +37,8 @@ import { HiMagnifyingGlass  } from "react-icons/hi2";
 const SkillsSection = () => {
   return (
     <section className="skills" id="skills">
-      <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />
