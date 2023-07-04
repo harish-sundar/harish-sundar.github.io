@@ -178,12 +178,16 @@ article h4 {
   }
   .prev,
   .next {
-    top: calc(70% + 100px); /* Adjust the value as needed */
+    top: calc(70% + 100px);
     transform: translateY(20%);
     bottom: unset;
     width: 25px;
     height: 25px;
     font-size: 12px;
-
   }
+
+  .text {
+    font-size: 12px;
+  }
+
 }
