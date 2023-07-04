@@ -17,6 +17,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  width: 100%;
   padding: 0 2rem;
   background-color: #081b29;
   color:#ededed;
@@ -96,6 +97,7 @@ header .nav-btn:hover {
   header .responsive_nav{
     transform: translateY(0);
     z-index: 999;
+    width: 100%;
 
   }
   nav .nav-close-btn{
