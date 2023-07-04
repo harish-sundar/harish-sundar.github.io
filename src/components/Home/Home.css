@@ -20,17 +20,34 @@
   @media (max-width: 1100px) {
     .home-content {
       text-align: center;
+      flex-direction: column;
+      align-items: center;
     }
-    
-    .button-box,
-    .home-sci {
+  
+    .button-box {
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
+      flex-direction: column;
       margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .home-sci {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      left: 32%;
+      transform: translateY(60px);
+      margin-bottom: 20px; /* Increase the margin-bottom value if needed */
     }
   }
+  
+
+
+  
+  
   
   
   body {

@@ -33,6 +33,8 @@ const HomeSection = () => {
         <img src={harishPic} alt="Harish Sundar" />
       </div>
       <span className="home-imgHover"></span>
+      <br />
+      <br />
     </section>
   );
 };
