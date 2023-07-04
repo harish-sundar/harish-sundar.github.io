@@ -44,12 +44,6 @@
     }
   }
   
-
-
-  
-  
-  
-  
   body {
       background: #081b29;
       color: #ededed
@@ -296,11 +290,14 @@
 
 .harish-pic {
     position: relative;
-    width: 325px; /* Adjust this value as needed */
-    height: 325px; /* Adjust this value as needed */
+    width: 325px;
+    height: 325px; 
     overflow: hidden;
     border-radius: 50%;
     left: 15%;
+    animation: slideIn 1s ease forwards;
+    animation-delay: 2s;
+    opacity: 0;
   }
   
 .harish-pic img {
@@ -311,6 +308,17 @@
     height: 100%;
     object-fit: cover;
     clip-path: ellipse(50% 50% at 50% 50%);
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(60px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
   @media screen and (max-width: 1024px) {
