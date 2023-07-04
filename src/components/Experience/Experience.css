@@ -173,6 +173,9 @@ article h4 {
   right: 0;
 }
 @media screen and (max-width: 768px) {
+  .experience-header{
+    font-size: 26px;;
+  }
   .section {
     width: 95vw;
   }
@@ -187,6 +190,6 @@ article h4 {
   }
 
   .text {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
