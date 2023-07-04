@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import harishPic from '../images/harish_photo.png';
+import harishPic from '../../images/harish_photo.png';
+import './Home.css';
 
 const HomeSection = () => {
   return (

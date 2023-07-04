@@ -1,9 +1,11 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import data from '../education_data.js';
+import data from './education_data.js';
 import 'react-vertical-timeline-component/style.min.css';
+import './Education.css';
 
-const NewEducationSection = () => {
+
+const EducationSection = () => {
     return (
       <section className="education" id="education">
         <br />
@@ -12,11 +14,12 @@ const NewEducationSection = () => {
         <br />
         <br />
         <br />
-        <div className="education2-header">
+        <div className="education-header">
           <h1>
-            <span className="education2-title">Education:</span> A Timeline
+            <span className="education-title">Education:</span> A Timeline
           </h1>
         </div>
+        <br />
           <VerticalTimeline>
             {data.map((entry) => (
               <VerticalTimelineElement
@@ -86,7 +89,7 @@ const NewEducationSection = () => {
     );
   };
   
-  export default NewEducationSection;  
+  export default EducationSection;  
   
   
   

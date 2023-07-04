@@ -1,7 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import logo from '../images/logo_icon.png';
+import logo from '../../images/logo_icon.png';
+import './Navbar.css';
 
 const NavbarSection = () => {
   const navRef = useRef();

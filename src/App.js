@@ -1,13 +1,12 @@
 import './App.css';
-import EducationSection from './components/Education';
-import HomeSection from './components/Home';
-import NavbarSection from './components/Navbar';
-import ExperienceSection from './components/Experience';
-import SkillsSection from './components/Skills';
-import ContactSection from './components/Contact';
-import FooterSection from './components/Footer';
-import NewEducationSection from './components/NewEducation';
-import ProjectsSection from './components/Projects';
+import HomeSection from './components/Home/Home';
+import NavbarSection from './components/Navbar/Navbar';
+import ExperienceSection from './components/Experience/Experience';
+import SkillsSection from './components/Skills/Skills';
+import ContactSection from './components/Contact/Contact';
+import FooterSection from './components/Footer/Footer';
+import EducationSection from './components/Education/Education';
+import ProjectsSection from './components/Projects/Projects';
 
 function App() {
 
@@ -15,7 +14,7 @@ function App() {
     <div>
       <NavbarSection />
       <HomeSection />
-      <NewEducationSection />
+      <EducationSection />
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />

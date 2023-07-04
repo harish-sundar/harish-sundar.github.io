@@ -1,6 +1,6 @@
-import mathgpt from "./images/math_gpt.jpeg";
-import mlmvpproject from "./images/ml-mvp-project.png";
-import kruskalmaze from "./images/kruskal-maze.png"
+import mathgpt from "../../images/math_gpt.jpeg";
+import mlmvpproject from "../../images/ml-mvp-project.png";
+import kruskalmaze from "../../images/kruskal-maze.png"
 
 
 const projects = [

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import data from "../experience_data.js";
+import data from "./experience_data.js";
+import './Experience.css';
 
 const ExperienceSection = () => {
   const [people] = useState(data);

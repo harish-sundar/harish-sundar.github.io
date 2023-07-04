@@ -22,17 +22,18 @@ import {
   SiRacket, 
   SiIntellijidea, 
   SiEclipseide, 
-  SiNotion, 
+  SiGooglecolab, 
   SiPowerbi, 
   SiTableau,
   SiPandas,
   SiScikitlearn,
   SiNumpy,
+  SiPycharm,
   SiJupyter,
 } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { HiMagnifyingGlass  } from "react-icons/hi2";
-
+import './Skills.css';
 
 const SkillsSection = () => {
   return (
@@ -144,6 +145,10 @@ const SkillsSection = () => {
           <p>IntelliJ IDEA</p>
         </div>
         <div className="tech-icon-container">
+          <SiPycharm className="tech-icon" />
+          <p>PyCharm</p>
+        </div>
+        <div className="tech-icon-container">
           <SiEclipseide className="tech-icon" />
           <p>Eclipse</p>
         </div>
@@ -160,8 +165,8 @@ const SkillsSection = () => {
           <p>Tableau</p>
         </div>
         <div className="tech-icon-container">
-          <SiNotion className="tech-icon" />
-          <p>Notion</p>
+          <SiGooglecolab className="tech-icon" />
+          <p>Google Colab</p>
         </div>
       </div>
       <br />

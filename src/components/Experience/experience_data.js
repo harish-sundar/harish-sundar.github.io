@@ -1,6 +1,6 @@
-import calqlogicImage from "./images/calqlogic.png";
-import prudentialImage from "./images/prudential.jpeg";
-import codeNinjasImage from "./images/code_ninjas.jpeg";
+import calqlogicImage from "../../images/calqlogic.png";
+import prudentialImage from "../../images/prudential.jpeg";
+import codeNinjasImage from "../../images/code_ninjas.jpeg";
 
 const experience = [
   {

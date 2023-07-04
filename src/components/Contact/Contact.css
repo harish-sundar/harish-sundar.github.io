@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'San-Serif'
+
+} 
+
+.contact-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+.contact-title{
+    color: #00abf0;
+}
+
+  .contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+  }
+
+  .contact form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact form .input-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contact form .input-box .input-field{
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+  }
+
+  .contact form .input-box .input-field input,
+  .contact form .textarea-field textarea{
+    width: 100%;
+    height: 100%;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    color: #00abf0;
+    background: transparent;
+    border-radius: .6rem;
+    border: .1rem solid #00abf0;
+  }
+
+  .contact-button-box {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 375px;
+    width: 345px;
+    height: 50px;
+    margin: 20px auto;
+
+  }
+  
+  .contact-button-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 0s ease forwards;
+    z-index: 2;
+  }
+  
+  .contact-button-box button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 170px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .contact-button-box button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+  }
+  
+  .contact-button-box button:hover {
+    color: #00abf0;
+  }
+  
+  .contact-button-box button:hover::before {
+    width: 100%;
+  }

@@ -1,6 +1,6 @@
-import nuLogo from './images/nu_logo.jpeg';
-import ccmLogo from './images/ccm_logo.jpeg';
-import mcstLogo from './images/mcst_logo.jpeg';
+import nuLogo from '../../images/nu_logo.jpeg';
+import ccmLogo from '../../images/ccm_logo.jpeg';
+import mcstLogo from '../../images/mcst_logo.jpeg';
 
 const education = [
     {

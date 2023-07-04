@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'San-Serif'
+
+} 
+  
+  .projects-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+.projects-title{
+    color: #00abf0;
+}
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project:hover {
+    box-shadow: 0 0 20px rgb(255, 255, 255); /* Add the desired shadow effect */
+  }
+  
+  .project {
+    background-color: #00abf0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    transition: box-shadow 0.3s ease-in-out; 
+    position: relative;
+  }
+  
+  .project h1 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .project p {
+    font-size: 14px;
+  }
+  
+  .project ul {
+    font-size: 14px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  .icons-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-button {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #081b29;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #081b29;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .link-button:hover {
+    color: #00abf0;
+  }
+  
+  .link-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .link-button:hover::before {
+    width: 100%;
+  }
+  
+
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .project-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project {
+      width: 100%;
+    }
+  }
+  
