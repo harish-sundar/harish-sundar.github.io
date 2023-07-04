@@ -11,36 +11,49 @@
 
 } 
 
-
-
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 40px;
+  height: 60px;
   padding: 0 2rem;
   background-color: #081b29;
   color:#ededed;
 }
 
-.logo{
+.logo {
   width: 40px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1; /* Adjust the background color as needed */
+  z-index: 999; /* Adjust the z-index value as needed */
+}
+
 
 nav a {
   margin: 0 2rem;
   color: #ededed;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 nav a:hover{
   color: #00abf0;
 }
 
+.active {
+  color: #00abf0;
+}
+
 header .nav-btn {
   padding: 5px;
+  margin-top: 10px;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -696,7 +709,7 @@ h3{
   margin-bottom: 0.75rem;
 }
 .section {
-  width: 90vw;
+  width: 100vw;
   margin: 5rem auto;
   max-width: 1170px;
 }
@@ -710,7 +723,7 @@ h3{
 .section-center {
   margin: 0 auto;
   margin-top: 4rem;
-  width: 80vw;
+  width: 90vw;
   height: 450px;
   max-width: 800px;
   text-align: center;
