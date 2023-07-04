@@ -38,7 +38,7 @@ const projects = [
 
         ],
         img: kruskalmaze,
-        ghlink: "https://youtube.com",
+        ghlink: "https://github.com/harish-sundar/kruskals-kaverns",
     },
 
 ]

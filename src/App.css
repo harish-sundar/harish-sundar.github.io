@@ -19,6 +19,7 @@ header {
   padding: 0 2rem;
   background-color: #081b29;
   color:#ededed;
+  border-radius: 10px; 
 }
 
 .logo {
@@ -53,7 +54,7 @@ nav a:hover{
 
 header .nav-btn {
   padding: 5px;
-  margin-top: 10px;
+  margin-top: 2px;
   cursor: pointer;
   background: transparent;
   border: none;
