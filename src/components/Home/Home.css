@@ -296,7 +296,7 @@
     border-radius: 50%;
     left: 15%;
     animation: slideIn 1s ease forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     opacity: 0;
   }
   
