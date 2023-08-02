@@ -24,7 +24,7 @@ const experience = [
       <ul>
         <li>
         • Automated a variety of data-ingestion and cleanup jobs using Python
-          scripts for substantial amounts of data in a pipeline
+          scripts (used boto3, spark, and pandas libraries) for substantial amounts of data in a pipeline
         </li>
         <li>
         • Created dynamic data visualizations in Matplotlib, Seaborn, and PowerBI to provide detailed information on
