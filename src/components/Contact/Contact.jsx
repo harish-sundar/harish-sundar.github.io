@@ -27,6 +27,13 @@ const ContactSection = () => {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="contact-header">
         <h1>
           <span className="contact-title">Contact:</span> Let's Connect!
