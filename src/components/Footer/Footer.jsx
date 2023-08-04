@@ -6,7 +6,7 @@ const FooterSection = () => {
     return (
         <footer class = "footer">
             <div class = "footer-text">
-                <p>&copy; 2023 | Designed & Built by Harish Sundar | Powered by React </p>
+                <p>&copy; 2023 | Designed & Built by Harish Sundar </p>
             </div>
             <div class = "footer-icon">
                 <Link to="home" spy={true} smooth={true} offset={50}><i class = "bx bx-up-arrow-alt"></i></Link>
