@@ -19,13 +19,15 @@ const NavbarSection = () => {
 
   const handleSectionVisibility = () => {
     const sectionElements = document.querySelectorAll('section[id]');
+    let currentActiveSection = '';
     for (const section of sectionElements) {
       const rect = section.getBoundingClientRect();
       if (rect.top <= 0 && rect.bottom >= 0) {
-        setActiveSection(section.id);
+        currentActiveSection = section.id;
         break;
       }
     }
+    setActiveSection(currentActiveSection);
   };
 
   useEffect(() => {
