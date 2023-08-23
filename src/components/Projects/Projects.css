@@ -43,6 +43,7 @@
     width: 300px;
     transition: box-shadow 0.3s ease-in-out; 
     position: relative;
+    text-align: left; 
   }
   
   .project h1 {
@@ -55,7 +56,7 @@
   }
   
   .project ul {
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .project img {

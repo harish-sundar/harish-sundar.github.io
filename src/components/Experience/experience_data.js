@@ -19,7 +19,7 @@ const experience = [
         • Implemented a REST API to craft a TriggerWare connector to the OpenAI API, facilitating seamless communication and data processing between components
         </li>
         <li>
-        • Worked closely under the CTO, leveraging architectural skills, API integration expertise, and effective teamwork to ensure project success
+        • Worked closely under the CTO, leveraging architectural skills, API integration, and effective teamwork to ensure project success
         </li>
       </ul>
     ),
