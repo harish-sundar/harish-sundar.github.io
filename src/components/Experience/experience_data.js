@@ -8,9 +8,21 @@ const experience = [
     image: calqlogicImage,
     name: "CalQLogic Inc.",
     location: "Los Angeles, CA",
-    duration: "June 2023 - Present",
+    duration: "June 2023 - August 2023",
     title: "Data Analytics & Machine Learning Intern",
-    quote: "TBD",
+    quote: (
+      <ul>
+        <li>
+        • Developed a full-stack Flask web application utilizing NLP by integrating the GPT-3.5 LLM and LangChain framework to analyze user-provided CSV files and queries, streamlining data comprehension
+        </li>
+        <li>
+        • Implemented a REST API to craft a TriggerWare connector to the OpenAI API, facilitating seamless communication and data processing between components
+        </li>
+        <li>
+        • Worked closely under the CTO, leveraging architectural skills, API integration expertise, and effective teamwork to ensure project success
+        </li>
+      </ul>
+    ),
   },
   {
     id: 2,
@@ -23,20 +35,20 @@ const experience = [
     (
       <ul>
         <li>
-        • Automated a variety of data-ingestion and cleanup jobs using Python (boto3, spark, and pandas libraries)
-          scripts for substantial amounts of data in a pipeline
+        • Automated various data-ingestion and cleanup jobs using Python (boto3, spark, and pandas libraries)
+          for substantial amounts of data in a pipeline
         </li>
         <li>
         • Created dynamic data visualizations in Matplotlib, Seaborn, and PowerBI to provide detailed information on
-          multiple raw datasets of consumer data for company decisions
+          multiple datasets of consumer data, enhancing data-driven decision making 
         </li>
         <li>
         • Utilized AWS (S3, Athena, Glue) to effectively store, analyze, and
-          query large volumes of raw data for efficient data
+          query raw data for efficient data
           processing
         </li>
         <li>
-        • Demonstrated adaptability and flexibility in an agile team environment
+        • Showcased adaptability as a contributing member of the Data Journey agile team
         </li>
       </ul>
     ),
