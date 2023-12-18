@@ -1,3 +1,4 @@
+import khouryImage from "../../images/khourypic.png";
 import calqlogicImage from "../../images/calqlogic.png";
 import prudentialImage from "../../images/prudential.jpeg";
 import codeNinjasImage from "../../images/code_ninjas.jpeg";
@@ -5,6 +6,24 @@ import codeNinjasImage from "../../images/code_ninjas.jpeg";
 const experience = [
   {
     id: 1,
+    image: khouryImage,
+    name: "Khoury College of Computer Sciences",
+    location: "Boston, MA",
+    duration: "January 2024 - Present",
+    title: "Teaching Assistant",
+    quote: (
+      <ul>
+        <li>
+        • Grading homework and exams for 300+ students in CS 2810: Mathematics of Data Models, offering constructive feedback
+        </li>
+        <li>
+        • Implemented a REST API to craft a TriggerWare connector to the OpenAI API, facilitating seamless communication and data processing between components
+        </li>
+      </ul>
+    ),
+  },
+  {
+    id: 2,
     image: calqlogicImage,
     name: "CalQLogic Inc.",
     location: "Los Angeles, CA",
@@ -25,7 +44,7 @@ const experience = [
     ),
   },
   {
-    id: 2,
+    id: 3,
     image: prudentialImage,
     name: "Prudential Financial",
     location: "Newark, NJ",
@@ -54,7 +73,7 @@ const experience = [
     ),
   },
   {
-    id: 3,
+    id: 4,
     image: codeNinjasImage,
     name: "Code Ninjas",
     location: "Denville, NJ",

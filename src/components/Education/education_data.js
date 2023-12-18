@@ -10,7 +10,7 @@ const education = [
         date: "Aug 2022 - May 2026",
         description: [
           "Concentration: Artificial Intelligence",
-          "Courses: Object-Oriented Design, Fundamentals of Computer Science I/II, Foundations of Cybersecurity, Discrete Structures, Mathematics of Data Models, Linear Algebra, Introduction to Mathematical Reasoning",
+          "Courses: Algorithms & Data, Object-Oriented Design, Fundamentals of Computer Science I/II, Foundations of Cybersecurity, Foundations of Data Science, Discrete Structures, Mathematics of Data Models, Linear Algebra",
           "Activities: NU Electric Racing Club (Software Subteam), Husky Competitive Programming Club",
           "Dean's List"
         ],

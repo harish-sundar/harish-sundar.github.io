@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLink, FaNewspaper } from 'react-icons/fa';
+import { FaGithub, FaLink } from 'react-icons/fa';
 import data from './projects_data.js';
 import './Projects.css';
 
@@ -61,9 +61,14 @@ const ProjectsSection = () => {
                 )}
               </div>
               {index === 0 && (
-                <div className="news-icon link-button">
-                  <FaNewspaper />
-                </div>
+                  <a
+                    href={project.newslink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-button"
+                  >
+                    <FaLink />
+                  </a>
               )}
             </div>
           </div>

@@ -1,7 +1,7 @@
 import mathgpt from "../../images/math_gpt.jpeg";
 import mlmvpproject from "../../images/ml-mvp-project.png";
 import kruskalmaze from "../../images/kruskal-maze.png"
-
+import reversi from "../../images/reversi.png";
 
 const projects = [
     {
@@ -15,6 +15,7 @@ const projects = [
         ],
         img: mathgpt,
         ghlink: "https://github.com/harish-sundar/mathsGPT",
+        newslink: "https://www.khoury.northeastern.edu/mathgpt-first-year-students-build-ai-powered-math-tutor-at-harvard-hackathon/",
     },
     {
         name: "NBA MVP Predictor",
@@ -27,6 +28,17 @@ const projects = [
         ],
         img: mlmvpproject,
         ghlink: "https://github.com/harish-sundar/nba-mvp-predictor",
+    },
+    {
+        name: "Reversi",
+        skills: "Java, Java Swing",
+        description: [
+            "• Developed a Java application adhering to the MVC architecture for the classic game Reversi",
+            "• Engineered three levels of computerized players, implementing game strategies for optimized decision-making",
+            "• Designed gameplay functionality for both square and hexagonal boards using abstraction",
+            "• Source code available upon request",
+        ],
+        img: reversi,
     },
     {
         name: "Kruskal's Kaverns",
