@@ -17,7 +17,7 @@ const experience = [
         • Grading homework and exams for 300+ students in CS 2810: Mathematics of Data Models, offering constructive feedback
         </li>
         <li>
-        • Implemented a REST API to craft a TriggerWare connector to the OpenAI API, facilitating seamless communication and data processing between components
+        • Hosting weekly office hours to enhance students' grasp of linear algebraic and statistical applications in machine learning and data science
         </li>
       </ul>
     ),

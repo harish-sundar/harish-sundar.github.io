@@ -76,16 +76,8 @@ const SkillsSection = () => {
           <p>JavaScript</p>
         </div>
         <div className="lang-icon-container">
-          <SiTypescript className="lang-icon" />
-          <p>TypeScript</p>
-        </div>
-        <div className="lang-icon-container">
           <i className="bx bxl-c-plus-plus lang-icon"></i>
           <p>C++</p>
-        </div>
-        <div className="lang-icon-container">
-          <SiCsharp className="lang-icon" />
-          <p>C#</p>
         </div>
         <div className="lang-icon-container">
           <SiRacket className="lang-icon" />
