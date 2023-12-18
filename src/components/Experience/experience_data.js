@@ -49,7 +49,7 @@ const experience = [
     name: "Prudential Financial",
     location: "Newark, NJ",
     duration: "August 2021 - August 2022",
-    title: "Data Science Intern",
+    title: "Software Engineering Intern",
     quote:
     (
       <ul>
@@ -78,7 +78,7 @@ const experience = [
     name: "Code Ninjas",
     location: "Denville, NJ",
     duration: "May 2021 - August 2021",
-    title: "Coding Instructor (Code Sensei)",
+    title: "Coding Instructor",
     quote:
     (
       <ul>
