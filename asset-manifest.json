@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba1cb8aa.css",
+    "main.js": "/static/js/main.2f1af2d3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ml-mvp-project.png": "/static/media/ml-mvp-project.81814b60895a61d9aaa0.png",
+    "static/media/harish_photo.png": "/static/media/harish_photo.3eb860f2c76e346a66d0.png",
+    "static/media/nu_logo.jpeg": "/static/media/nu_logo.c68361894addcb89a4fa.jpeg",
+    "static/media/reversi.png": "/static/media/reversi.e1516267a18dedca665f.png",
+    "static/media/calqlogic.png": "/static/media/calqlogic.1fd351ed44a1acfb1445.png",
+    "static/media/kruskal-maze.png": "/static/media/kruskal-maze.67faa64b31bb27f1b952.png",
+    "static/media/math_gpt.jpeg": "/static/media/math_gpt.885cbb5ce48f53807fb6.jpeg",
+    "static/media/code_ninjas.jpeg": "/static/media/code_ninjas.6cc3315cebb19ecdf1d2.jpeg",
+    "static/media/prudential.jpeg": "/static/media/prudential.0486ae08713834c78936.jpeg",
+    "index.html": "/index.html",
+    "main.ba1cb8aa.css.map": "/static/css/main.ba1cb8aa.css.map",
+    "main.2f1af2d3.js.map": "/static/js/main.2f1af2d3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba1cb8aa.css",
+    "static/js/main.2f1af2d3.js"
+  ]
+}
