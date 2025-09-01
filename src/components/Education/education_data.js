@@ -5,13 +5,13 @@ import mcstLogo from '../../images/mcst_logo.jpeg';
 const education = [
     {
         place: "Northeastern University",
-        title: "Bachelor of Science in Computer Science, Minor in Mathematics",
+        title: "Bachelor of Science in Computer Science, Minors in Mathematics & Computational Social Sciences",
         location: "Boston, MA",
         date: "Aug 2022 - May 2026",
         description: [
           "Concentration: Artificial Intelligence",
-          "Courses: Algorithms & Data, Object-Oriented Design, Fundamentals of Computer Science I/II, Foundations of Cybersecurity, Foundations of Data Science, Discrete Structures, Mathematics of Data Models, Linear Algebra",
-          "Activities: NU Electric Racing Club (Software Subteam), Husky Competitive Programming Club",
+          "Courses: Data Mining & Machine Learning I, Artificial Intelligence, Information Retrieval, Digitial Design & Computer Architecture, Algorithms & Data, Object-Oriented Design, Discrete Structures, Number Theory, Linear Algebra",
+          "Activities: Teaching Assistant, Northeastern Electric Racing Club (Software Subteam), Husky Competitive Programming Club",
           "Dean's List"
         ],
         icon: nuLogo,

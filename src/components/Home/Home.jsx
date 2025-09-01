@@ -10,15 +10,22 @@ const HomeSection = () => {
         <h1>Harish Sundar</h1>
         <div className="wrapper">
           <ul className="dynamic-texts">
-            <li><span>CS Student</span></li>
-            <li><span>Developer</span></li>
-            <li><span>Data Scientist</span></li>
-            <li><span>Problem Solver</span></li>
-            <li><span>Tech Enthusiast</span></li>
+            {[
+              "CS Student",
+              "Software Engineer",
+              "Machine Learning Engineer",
+              "Problem Solver",
+              "Tech Enthusiast",
+            ].map((text, i) => (
+              <li key={i} style={{ "--chars": text.length }}>
+                <span>{text}</span>
+              </li>
+            ))}
           </ul>
+
         </div>
         <p>
-          Hey, I'm Harish! I'm an undergraduate student at Northeastern University studying computer science and mathematics. I'm passionate about expanding my skills as a developer and always eager to learn new things. My areas of interest include machine learning, full-stack development, and data science. I'm constantly seeking new opportunities to grow and apply my knowledge. Let's connect and collaborate!
+          Hey, I'm Harish! I'm an undergraduate student at Northeastern University studying computer science, artificial intelligence, and mathematics. I have over two years of internship experience as a software engineer and machine learning engineer in the fintech, insurance, and defense industries. My areas of interest include full-stack development, machine learning, and project management. I'm constantly seeking new opportunities to grow and apply my knowledge. Let's connect and collaborate!
         </p>
         <div className="button-box">
           <Link to="contact" spy={true} smooth={true} offset={50}>Let's Connect!</Link>

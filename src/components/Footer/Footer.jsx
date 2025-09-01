@@ -3,16 +3,20 @@ import { Link } from 'react-scroll';
 import './Footer.css';
 
 const FooterSection = () => {
-    return (
-        <footer class = "footer">
-            <div class = "footer-text">
-                <p>&copy; 2023 | Designed & Built by Harish Sundar </p>
-            </div>
-            <div class = "footer-icon">
-                <Link to="home" spy={true} smooth={true} offset={50}><i class = "bx bx-up-arrow-alt"></i></Link>
-            </div>
-        </footer>
-    );
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="footer">
+      <div className="footer-text">
+        <p>&copy; {currentYear} | Designed & Built by Harish Sundar</p>
+      </div>
+      <div className="footer-icon">
+        <Link to="home" spy={true} smooth={true} offset={50}>
+          <i className="bx bx-up-arrow-alt"></i>
+        </Link>
+      </div>
+    </footer>
+  );
 };
 
 export default FooterSection;

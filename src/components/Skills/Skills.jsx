@@ -30,28 +30,27 @@ import {
   SiNumpy,
   SiPycharm,
   SiJupyter,
+  SiStrapi,
+  SiSpringboot
 } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { HiMagnifyingGlass  } from "react-icons/hi2";
+import { FaRobot } from "react-icons/fa"; // for Copilot/ChatGPT representation
 import './Skills.css';
 
 const SkillsSection = () => {
   return (
     <section className="skills" id="skills">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+      <br /><br /><br /><br /><br /><br /><br />
       <div className="skills-header">
         <h1>
           <span className="skills-title">Skills:</span> My Expertise
         </h1>
       </div>
       <br />
-      <div className = "skill-section-header">
+
+      {/* Languages */}
+      <div className="skill-section-header">
         <h2>Languages</h2>
       </div>
       <div className="lang-icons">
@@ -76,6 +75,10 @@ const SkillsSection = () => {
           <p>JavaScript</p>
         </div>
         <div className="lang-icon-container">
+          <SiTypescript className="lang-icon" />
+          <p>TypeScript</p>
+        </div>
+        <div className="lang-icon-container">
           <i className="bx bxl-c-plus-plus lang-icon"></i>
           <p>C++</p>
         </div>
@@ -85,7 +88,9 @@ const SkillsSection = () => {
         </div>
       </div>
       <br />
-      <div className = "skill-section-header">
+
+      {/* Frameworks */}
+      <div className="skill-section-header">
         <h2>Frameworks/Libraries</h2>
       </div>
       <div className="frame-icons">
@@ -102,6 +107,14 @@ const SkillsSection = () => {
           <p>Express</p>
         </div>
         <div className="frame-icon-container">
+          <SiStrapi className="frame-icon" />
+          <p>Strapi</p>
+        </div>
+        <div className="frame-icon-container">
+          <SiSpringboot className="frame-icon" />
+          <p>Spring Boot</p>
+        </div>
+        <div className="frame-icon-container">
           <FaGit className="frame-icon" />
           <p>Git</p>
         </div>
@@ -110,17 +123,18 @@ const SkillsSection = () => {
           <p>Pandas</p>
         </div>
         <div className="frame-icon-container">
-        <SiScikitlearn className="frame-icon" />
+          <SiScikitlearn className="frame-icon" />
           <p>Scikit-learn</p>
         </div>
         <div className="frame-icon-container">
-        <SiNumpy className="frame-icon" />
+          <SiNumpy className="frame-icon" />
           <p>Numpy</p>
         </div>
-
       </div>
       <br />
-      <div className = "skill-section-header">
+
+      {/* Software */}
+      <div className="skill-section-header">
         <h2>Software</h2>
       </div>
       <div className="tech-icons">
@@ -141,10 +155,6 @@ const SkillsSection = () => {
           <p>PyCharm</p>
         </div>
         <div className="tech-icon-container">
-          <SiEclipseide className="tech-icon" />
-          <p>Eclipse</p>
-        </div>
-        <div className="tech-icon-container">
           <SiJupyter className="tech-icon" />
           <p>Jupyter Notebook</p>
         </div>
@@ -157,16 +167,18 @@ const SkillsSection = () => {
           <p>Tableau</p>
         </div>
         <div className="tech-icon-container">
-          <SiGooglecolab className="tech-icon" />
-          <p>Google Colab</p>
+          <FaRobot className="tech-icon" />
+          <p>Copilot / ChatGPT</p>
         </div>
       </div>
       <br />
-      <div className = "skill-section-header">
+
+      {/* Soft Skills */}
+      <div className="skill-section-header">
         <h2>Soft Skills</h2>
       </div>
-      <div class="soft-icons">
-      <div className="soft-icon-container">
+      <div className="soft-icons">
+        <div className="soft-icon-container">
           <FaComments className="soft-icon" />
           <p>Communication</p>
         </div>

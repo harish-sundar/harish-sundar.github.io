@@ -39,7 +39,7 @@
       margin-top: 20px;
       left: 32%;
       transform: translateY(60px);
-      margin-bottom: 20px; /* Increase the margin-bottom value if needed */
+      margin-bottom: 20px;
     }
   }
   
@@ -85,61 +85,72 @@
       animation-delay: .4s;
   }
   
-  
-  .wrapper{
-      display: inline-flex;
-  }
-  
-  .wrapper .static-text{
-      color: #fff;
-      font-size: 30px;
-  }
-  
-  .dynamic-texts li{
-      color: #00abf0;
-      list-style: none;
-      font-size: 35px;
-      font-weight: 400;
-      top: 0;
-      position: relative;
-      animation: slide 15s steps(5) infinite;
-  }
-  
-  @keyframes slide {
-      100%{
-          top: -225px;
-      }
-  }
-  
-  .wrapper .dynamic-texts {
-      line-height: 45px;
-      height: 45px;
-      background: #081b29;
-      overflow: hidden;
-  }
-  
-  
-  .dynamic-texts li::after{
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background-color: #081b29;
-      border-left: 2px solid #00abf0;
-      left: 0;
-      animation: typing 3s steps(15) infinite;
-  }
-  
-  @keyframes typing {
-      40%,
-      60%{
-          left: calc(100% + 30px);
-      }
-      100%{
-          left: 0;
-      }
-  }
-  
+    /* Container */
+    .wrapper {
+    display: inline-flex;
+    }
+
+    .wrapper .dynamic-texts {
+    line-height: 45px;
+    height: 45px;
+    background: #081b29;
+    overflow: hidden;
+    }
+
+    /* Each rotating line */
+    .dynamic-texts li {
+    color: #00abf0;
+    list-style: none;
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    /* rotation of the list itself (unchanged) */
+    animation: slide 15s steps(5) infinite; /* 5 = number of items; adjust if needed */
+    }
+
+    /* The typing mask + cursor; steps now driven by --chars set per <li> */
+    .dynamic-texts li::after {
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;               /* shorthand for top/right/bottom/left: 0 */
+    background-color: #081b29;    /* mask color = page bg */
+    border-left: 2px solid #00abf0; /* cursor */
+    /* duration + steps are customizable via CSS vars; --chars comes from JS */
+    animation: typing var(--type-duration, 3s) steps(var(--chars)) infinite;
+    }
+
+    /* Rotating list (unchanged) */
+    @keyframes slide {
+    100% {
+        top: -225px; /* = line-height * (items - 1); adjust if you change sizes */
+    }
+    }
+
+    /* Typing effect:
+    - 0%→40%: cursor types across (mask moves right)
+    - 40%→60%: pause at end (cursor just past text by --cursor-gap)
+    - 60%→100%: backtrack to start
+    */
+    @keyframes typing {
+        0% {
+            left: 0; /* start typing */
+        }
+        40% {
+            left: 0; /* still typing */
+        }
+        60% {
+            left: calc(100% + var(--cursor-gap, 30px)); /* cursor at the end */
+        }
+        80% {
+            left: calc(100% + var(--cursor-gap, 30px)); /* HOLD at end */
+        }
+        100% {
+            left: 0; /* back to start */
+        }
+    }
+
+
   
   .home-content p {
       position: relative;

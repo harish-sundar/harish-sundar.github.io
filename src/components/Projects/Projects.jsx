@@ -60,7 +60,7 @@ const ProjectsSection = () => {
                   </a>
                 )}
               </div>
-              {index === 0 && (
+              {(index === 0 || index === 1) && (
                   <a
                     href={project.newslink}
                     target="_blank"
@@ -69,7 +69,7 @@ const ProjectsSection = () => {
                   >
                     <FaLink />
                   </a>
-              )}
+                )}
             </div>
           </div>
         ))}
