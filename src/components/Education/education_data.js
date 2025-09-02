@@ -5,12 +5,12 @@ import mcstLogo from '../../images/mcst_logo.jpeg';
 const education = [
     {
         place: "Northeastern University",
-        title: "Bachelor of Science in Computer Science, Minors in Mathematics & Computational Social Sciences",
+        title: "Bachelor of Science in Computer Science, Minors in Mathematics & Computational Social Science",
         location: "Boston, MA",
         date: "Aug 2022 - May 2026",
         description: [
           "Concentration: Artificial Intelligence",
-          "Courses: Data Mining & Machine Learning I, Artificial Intelligence, Information Retrieval, Digitial Design & Computer Architecture, Algorithms & Data, Object-Oriented Design, Discrete Structures, Number Theory, Linear Algebra",
+          "Courses: Data Mining & Machine Learning I, Artificial Intelligence, Information Retrieval, Digital Design & Computer Architecture, Algorithms & Data, Object-Oriented Design, Discrete Structures, Number Theory, Linear Algebra",
           "Activities: Teaching Assistant, Northeastern Electric Racing Club (Software Subteam), Husky Competitive Programming Club",
           "Dean's List"
         ],
@@ -22,7 +22,7 @@ const education = [
         location: "Randolph, NJ",
         date: "Aug 2021 - May 2022",
         description: [
-          "26 transferrable credits earned",
+          "26 transferable credits earned",
           "Courses: Data Structures & Algorithms, Computer Architecture & Assembly Language, Analytic Geometry & Calculus I/II, Probability & Statistics, English Composition I/II",
           "Dean's Honor List"
         ],
