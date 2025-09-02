@@ -9,7 +9,7 @@ const projects = [
         name: "Heads-Up Texas Hold’em AI Agents",
         skills: "Python, PyTorch, Pandas, Matplotlib, Git, LaTeX",
         description: [
-            "• Benchmarked DQN, CFR, and Bayesian poker agents against seven different opponent archetypes (bluff-heavy, ) over 10,000+ games",
+            "• Benchmarked DQN, CFR, and Bayesian poker agents against seven different opponent archetypes (bluff-heavy, cautious, random, etc) over 10,000+ games",
             "• Built a Pandas/Matplotlib pipeline to track profit, fold rate, and showdown win rate with publication-quality plots",
             "• Co-authored a 13-page LaTeX paper on project design and key insights on agent adaptability and exploitability",
         ],
